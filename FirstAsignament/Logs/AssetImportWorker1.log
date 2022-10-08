@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Education' Language: 'ca' Physical Memory: 16266 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+G:\unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/laiapp4/My project
+G:/IA/IA-FirstAsignament/FirstAsignament
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64854
-Successfully changed project path to: C:/Users/laiapp4/My project
-C:/Users/laiapp4/My project
+58997
+Successfully changed project path to: G:/IA/IA-FirstAsignament/FirstAsignament
+G:/IA/IA-FirstAsignament/FirstAsignament
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,108 +47,105 @@ C:/Users/laiapp4/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 156.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/laiapp4/My project/Assets
+[Subsystems] Discovering subsystems at path G:/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/IA/IA-FirstAsignament/FirstAsignament/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon (TM) R7 M370 (ID=0x6600)
+    Renderer: Radeon RX 580 Series (ID=0x67df)
     Vendor:   ATI
-    VRAM:     2028 MB
-    Driver:   27.20.20912.1002
+    VRAM:     8170 MB
+    Driver:   30.0.15021.11005
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Mono path[0] = 'G:/unity/Editor/Data/Managed'
+Mono path[1] = 'G:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008756 seconds.
+Register platform support module: G:/unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002379 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 153.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.040 seconds
+- Completed reload, in  0.654 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1040ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (654ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (788ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
+			SetupTypeCache (110ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (426ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (154ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007613 seconds.
+Registered in 0.004681 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\laiapp4\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\laiapp4\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image G:\IA\IA-FirstAsignament\FirstAsignament\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\IA\IA-FirstAsignament\FirstAsignament\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.800 seconds
+- Completed reload, in  1.070 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1801ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1427ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (449ms)
+			SetupTypeCache (268ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (690ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (385ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (179ms)
-				ProcessInitializeOnLoadAttributes (456ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3824.
-Memory consumption went from 115.8 MB to 115.7 MB.
-Total: 5.393900 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.265100 ms MarkObjects: 4.573400 ms  DeleteObjects: 0.214500 ms)
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3832.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 3.399500 ms (FindLiveObjects: 0.281800 ms CreateObjectMapping: 0.085100 ms MarkObjects: 2.928500 ms  DeleteObjects: 0.102600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,55 +159,205 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4069.632113 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/Caravan_1.prefab
-  artifactKey: Guid(8e9164e00a4d5db48a745b14934ecaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/Caravan_1.prefab using Guid(8e9164e00a4d5db48a745b14934ecaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd788b424e0e3ff096a516aefd8640d9d') in 0.373347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/Water.prefab
-  artifactKey: Guid(bc131e0c7707c8e4d8099dd0b1451179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/Water.prefab using Guid(bc131e0c7707c8e4d8099dd0b1451179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e998719599a3a026c3e23752b766aab1') in 0.358199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/Tree_1.prefab
-  artifactKey: Guid(2f88bb42a1ce0c043834b471617d3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/Tree_1.prefab using Guid(2f88bb42a1ce0c043834b471617d3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71da3c650a44821facde02ac0152f785') in 0.017182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/Well1.prefab
-  artifactKey: Guid(5e9761041a6b5b647a3b3b0d79c4ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/Well1.prefab using Guid(5e9761041a6b5b647a3b3b0d79c4ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6267e24014e3536bb7aaac15c604d91f') in 0.020381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/House_2.prefab
-  artifactKey: Guid(3d7ed3a31ab8f79448604ec3148d300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/House_2.prefab using Guid(3d7ed3a31ab8f79448604ec3148d300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9979bf896cc59e6003e909d068e7f7') in 0.024198 seconds 
+  Time since last request: 78252.636313 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground 01b956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(ba6ee62267029244883ff5f4ddd96547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground 01b956af97c33fc3d7.terrainlayer using Guid(ba6ee62267029244883ff5f4ddd96547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5367f5557ecfe4c34be741fa2a17e902') in 0.658416 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/Wc.prefab
-  artifactKey: Guid(943133367053d9145a4401c02bf5f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/Wc.prefab using Guid(943133367053d9145a4401c02bf5f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eb08f392aeb5e71fb4f43bffbd4852') in 0.018745 seconds 
+  path: Assets/_TerrainAutoUpgrade/layer_wrak_zedb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(21e0999bf41dfa64e99a9d36958691a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_wrak_zedb956af97c33fc3d7.terrainlayer using Guid(21e0999bf41dfa64e99a9d36958691a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7596af2f5566cec6e11115146e7cf588') in 0.016103 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/Rock_2.prefab
-  artifactKey: Guid(7bf62b0bc39558d48807aa176c485b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/Rock_2.prefab using Guid(7bf62b0bc39558d48807aa176c485b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f716689e7e0e02ef84c8ae70f57296b0') in 0.018149 seconds 
+  Time since last request: 86.456056 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Caravan_1.prefab
+  artifactKey: Guid(8e9164e00a4d5db48a745b14934ecaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Caravan_1.prefab using Guid(8e9164e00a4d5db48a745b14934ecaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13386a4ddb5bbdc6a68bec1915c48f5') in 0.058323 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/Tree_2.prefab
-  artifactKey: Guid(f371874061e9c874481abcdb897e9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/Tree_2.prefab using Guid(f371874061e9c874481abcdb897e9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d41e605ae787e8a80a579b0e8ab6c9') in 0.017989 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Water.prefab
+  artifactKey: Guid(bc131e0c7707c8e4d8099dd0b1451179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Water.prefab using Guid(bc131e0c7707c8e4d8099dd0b1451179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1436f49c48a856acf6f796d73ff493') in 0.056544 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Low_Poly_Mini_Village/Prefabs/Grass_1.prefab
-  artifactKey: Guid(f7155cb81768ed845bbaa6821ede4fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low_Poly_Mini_Village/Prefabs/Grass_1.prefab using Guid(f7155cb81768ed845bbaa6821ede4fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347f741a2f62d5f8a823a3bd41f34d44') in 0.332419 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Tree_1.prefab
+  artifactKey: Guid(2f88bb42a1ce0c043834b471617d3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Tree_1.prefab using Guid(2f88bb42a1ce0c043834b471617d3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f89542bafd8a31429c4beb087a0ad9') in 0.013793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Well1.prefab
+  artifactKey: Guid(5e9761041a6b5b647a3b3b0d79c4ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Well1.prefab using Guid(5e9761041a6b5b647a3b3b0d79c4ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47edcc32411a798c2eb4063fdb88ec9b') in 0.013287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/House_2.prefab
+  artifactKey: Guid(3d7ed3a31ab8f79448604ec3148d300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/House_2.prefab using Guid(3d7ed3a31ab8f79448604ec3148d300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1976e9a281f06b24392134a02869f57f') in 0.019501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Tree_4.prefab
+  artifactKey: Guid(122cf8bf4f49e3842ae0fce025b4bd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Tree_4.prefab using Guid(122cf8bf4f49e3842ae0fce025b4bd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704b3f1889120ce2e00107e8ef70b700') in 0.013163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Electric_cable.prefab
+  artifactKey: Guid(0dbda4ea70ba28549b5c445249486cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Electric_cable.prefab using Guid(0dbda4ea70ba28549b5c445249486cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b397aee8d2215788a923c34c3b4e6b') in 0.013426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Wooden_barrel.prefab
+  artifactKey: Guid(c230cf9ffea1ef74b9eca483ad69d225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Wooden_barrel.prefab using Guid(c230cf9ffea1ef74b9eca483ad69d225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc3c250f4cdc02f93d0c9e4501679ae') in 0.019599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Church_1.prefab
+  artifactKey: Guid(fec05b3694b2ffb4da8dc2a3fbcd8256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Church_1.prefab using Guid(fec05b3694b2ffb4da8dc2a3fbcd8256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cbd6e6b9a64eaca747634cd5622749') in 0.013547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Rock_3.prefab
+  artifactKey: Guid(ffc545d554bc78c4f9ee506149e450b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Rock_3.prefab using Guid(ffc545d554bc78c4f9ee506149e450b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfbb03d86e66e10935398ec4a4a2ab3') in 0.014409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/House_1.prefab
+  artifactKey: Guid(2030e0fa2aadfed4b9f99149cab54c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/House_1.prefab using Guid(2030e0fa2aadfed4b9f99149cab54c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59ca763f4a3662678619e19c3819a5e') in 0.015127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low_Poly_Mini_Village/Prefabs/Rock_1.prefab
+  artifactKey: Guid(3a0a30c4014e71342ae79edf0a0e737a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village/Prefabs/Rock_1.prefab using Guid(3a0a30c4014e71342ae79edf0a0e737a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fd567e11abfac33f1f97ac4ed9cbf3') in 0.013472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.657005 seconds.
+  path: Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_B.prefab
+  artifactKey: Guid(91a5828b0d87cc048be91599336fea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_B.prefab using Guid(91a5828b0d87cc048be91599336fea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4781cef4e7a9f461b6f1d0e77954cac') in 0.469332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.218453 seconds.
+  path: Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_A_Textures/normal_specular.png
+  artifactKey: Guid(1c61d6d77b105064db38e1ebb757ac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_A_Textures/normal_specular.png using Guid(1c61d6d77b105064db38e1ebb757ac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b395ba22696f527a18fd8be1e8c001f') in 0.103435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_A_Textures/shadow.png
+  artifactKey: Guid(d778f9ed6a33e1545815c536b001b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_A_Textures/shadow.png using Guid(d778f9ed6a33e1545815c536b001b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258555aee455c107f42a4858ad9422ee') in 0.014700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2424.368155 seconds.
+  path: Assets/Destroyed_city_FREE/Textures/beton_01n.jpg
+  artifactKey: Guid(e61358ec39887214d87467faa5d817d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Textures/beton_01n.jpg using Guid(e61358ec39887214d87467faa5d817d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40caa75b4f56e5cf1bcbe5909b16870') in 0.025364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Destroyed_city_FREE/Textures/grassHR2 02.jpg
+  artifactKey: Guid(6cc026e4f65a35f4d8bdb1470f28e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Textures/grassHR2 02.jpg using Guid(6cc026e4f65a35f4d8bdb1470f28e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1adc787b8a0fb889736a4aed0b88219') in 0.012791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Destroyed_city_FREE/Textures/PD_BnW.png
+  artifactKey: Guid(2e0c819413fae94439b449ac57ed2323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Textures/PD_BnW.png using Guid(2e0c819413fae94439b449ac57ed2323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26c3d546eef8ae2b0beed3f4e484c2e') in 0.011784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Destroyed_city_FREE/Textures/wrak_zedn.jpg
+  artifactKey: Guid(4f271df11a6dc16478671e26fc84a491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Textures/wrak_zedn.jpg using Guid(4f271df11a6dc16478671e26fc84a491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bbb91a3b767c518e8fb3191f6a9736') in 0.014514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Destroyed_city_FREE/Textures/Ground 01.psd
+  artifactKey: Guid(9c8aea782614a524e9cb6d5fd11928bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Textures/Ground 01.psd using Guid(9c8aea782614a524e9cb6d5fd11928bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79db4d745bf74ef6eff17ad9be20b246') in 0.016095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.368211 seconds.
+  path: Assets/Destroyed_city_FREE/Standard Assets/Water (Pro Only)/Sources/Textures/oceangradientcube.psd
+  artifactKey: Guid(9cda328e4b6954d70841a8a66f42ec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Standard Assets/Water (Pro Only)/Sources/Textures/oceangradientcube.psd using Guid(9cda328e4b6954d70841a8a66f42ec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eea5887f54d2e580d8ddc47a7999f4') in 0.030491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Destroyed_city_FREE/Standard Assets/Water (Pro Only)/Sources/Textures/Water Fresnel.psd
+  artifactKey: Guid(5b5c5575fd4c74abd9f7b30862fb76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Standard Assets/Water (Pro Only)/Sources/Textures/Water Fresnel.psd using Guid(5b5c5575fd4c74abd9f7b30862fb76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5a7b6fa1f0eb9f11c017ad844c0881') in 0.012638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.733275 seconds.
+  path: Assets/Destroyed_city_FREE/Standard Assets/Water (Pro Only)/Sources/Materials/Water fallback.mat
+  artifactKey: Guid(d7f94cd451cb52f458b48d402a25fdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Standard Assets/Water (Pro Only)/Sources/Materials/Water fallback.mat using Guid(d7f94cd451cb52f458b48d402a25fdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa68d408ad62e3ffe769944d4e7e5e97') in 0.673583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 447.880077 seconds.
+  path: Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_B_Textures/normal_specular.png
+  artifactKey: Guid(793135570d0fd754d8ea8f503ec95966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_B_Textures/normal_specular.png using Guid(793135570d0fd754d8ea8f503ec95966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a64387498f80b9cdca2974421ed79ed') in 0.011603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_B_Textures/shadow.png
+  artifactKey: Guid(efdfaaec4e7f1804db549cbdcfa52550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Trees/Prefabs/Bush_B_Textures/shadow.png using Guid(efdfaaec4e7f1804db549cbdcfa52550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806b2dba4f01713bd13937d6a401fe5b') in 0.012494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 342.914564 seconds.
+  path: Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Concrete_-40524.asset
+  artifactKey: Guid(47f886deeb9300b42860fbddc0d1aae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Concrete_-40524.asset using Guid(47f886deeb9300b42860fbddc0d1aae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b32fc9f0f0c01ebce4c57516e9012d2') in 0.025388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Rebar_-40576.asset
+  artifactKey: Guid(d8259e38270df8b4ca2776331e95fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Rebar_-40576.asset using Guid(d8259e38270df8b4ca2776331e95fbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9180230a644d797d5a44e6ddb3609b5') in 0.014772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Rebar_-40714.asset
+  artifactKey: Guid(5d9ddeece2ecd3b4baa2eea5165e12a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Rebar_-40714.asset using Guid(5d9ddeece2ecd3b4baa2eea5165e12a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2dbac3ee42de4a250f4c7d15b4c178') in 0.014108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Concrete_-40984.asset
+  artifactKey: Guid(96a73e0e0f207a94e8dcdf9dad8d22e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Concrete_-40984.asset using Guid(96a73e0e0f207a94e8dcdf9dad8d22e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fb758a6037416aaa2f78a55eea5ee5') in 0.014593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Concrete_-40662.asset
+  artifactKey: Guid(8986ae0c028178e48bc3f7190d398b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DBK/CombinedMesh/DBK_Demo_Building/Mesh_DBK_Concrete_-40662.asset using Guid(8986ae0c028178e48bc3f7190d398b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843daa670cd194e07c952dea371202a9') in 0.015324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.106483 seconds.
+  path: Assets/DBK/Models/Rubble/Concrete/DBK_Concrete_Rubble_Small_C.fbx
+  artifactKey: Guid(5c5d67a091f81604089b6aae644bc219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DBK/Models/Rubble/Concrete/DBK_Concrete_Rubble_Small_C.fbx using Guid(5c5d67a091f81604089b6aae644bc219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9026e7f239b3092f0c359314913adebe') in 0.393746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 817.949131 seconds.
+  path: Assets/Visual Design Cafe/Packages/com.vdc.nature-shaders.embedded-2021.asset
+  artifactKey: Guid(319d0c69f1a3e634e927e273fac654a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Packages/com.vdc.nature-shaders.embedded-2021.asset using Guid(319d0c69f1a3e634e927e273fac654a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c8ecd22ce479bcdb99e8af238d5adb') in 0.006614 seconds 
